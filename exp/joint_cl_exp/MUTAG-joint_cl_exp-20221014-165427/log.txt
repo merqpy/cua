@@ -1,0 +1,394 @@
+2022-10-14 16:54:27,729 Namespace(seed=0, exp='joint_cl_exp', data_root='../data', dataset='MUTAG', gpu=0, epochs=30, save='exp\\joint_cl_exp\\MUTAG-joint_cl_exp-20221014-165427', n_fold=10, batch_size=128, lr=0.01, lr_decay_factor=1.0, lr_decay_step_size=20, epoch_select='test_max', n_layers_feat=1, n_layers_conv=3, n_layers_fc=2, hidden=128, global_pool='sum', skip_connection=False, res_branch='BNConvReLU', dropout=0, edge_norm=True, with_eval_mode=True, add_mask=False, aug_ratio=0.2, semi_split=10)
+2022-10-14 16:54:27,729 -----
+Total 1 experiments in this run:
+2022-10-14 16:54:27,730 1/1 - MUTAG - deg+odeg100 - ResGCN
+2022-10-14 16:54:27,730 -----
+1/1 - MUTAG - deg+odeg100 - ResGCN
+2022-10-14 16:54:27,740 MUTAG(188)
+2022-10-14 16:54:27,747 **********
+2022-10-14 16:54:27,748 Fold: 0
+2022-10-14 16:54:27,748 188
+2022-10-14 16:54:27,748 Train size: 169
+2022-10-14 16:54:27,749 Semi size: 18
+2022-10-14 16:54:27,749 Test size: 19
+2022-10-14 16:54:27,899 **************************************************
+2022-10-14 16:54:27,900 Training View Generator and Classifier...
+2022-10-14 16:54:31,562 Epoch: 001, Train View Loss: 4.0932, Sim Loss: 0.3551, Cls Loss: 1.0422, CL Loss: 2.6958, Train Acc: 0.5556, Test Acc: 0.6316
+2022-10-14 16:54:31,642 Epoch: 002, Train View Loss: 3.6860, Sim Loss: 0.5950, Cls Loss: 0.5567, CL Loss: 2.5343, Train Acc: 0.5556, Test Acc: 0.6316
+2022-10-14 16:54:31,725 Epoch: 003, Train View Loss: 3.5554, Sim Loss: 0.5234, Cls Loss: 0.4401, CL Loss: 2.5919, Train Acc: 0.6667, Test Acc: 0.7895
+2022-10-14 16:54:31,798 Epoch: 004, Train View Loss: 3.5095, Sim Loss: 0.5327, Cls Loss: 0.5137, CL Loss: 2.4631, Train Acc: 0.7222, Test Acc: 0.6842
+2022-10-14 16:54:31,878 Epoch: 005, Train View Loss: 3.3583, Sim Loss: 0.5483, Cls Loss: 0.4119, CL Loss: 2.3981, Train Acc: 0.7222, Test Acc: 0.7368
+2022-10-14 16:54:31,960 Epoch: 006, Train View Loss: 3.3824, Sim Loss: 0.4891, Cls Loss: 0.4261, CL Loss: 2.4672, Train Acc: 0.7222, Test Acc: 0.7368
+2022-10-14 16:54:32,041 Epoch: 007, Train View Loss: 3.0427, Sim Loss: 0.4829, Cls Loss: 0.2923, CL Loss: 2.2675, Train Acc: 0.6667, Test Acc: 0.7895
+2022-10-14 16:54:32,114 Epoch: 008, Train View Loss: 3.1120, Sim Loss: 0.4424, Cls Loss: 0.2929, CL Loss: 2.3768, Train Acc: 0.6667, Test Acc: 0.7895
+2022-10-14 16:54:32,181 Epoch: 009, Train View Loss: 3.1158, Sim Loss: 0.3738, Cls Loss: 0.3010, CL Loss: 2.4410, Train Acc: 0.7222, Test Acc: 0.7368
+2022-10-14 16:54:32,240 Epoch: 010, Train View Loss: 3.0324, Sim Loss: 0.4174, Cls Loss: 0.2401, CL Loss: 2.3749, Train Acc: 0.7222, Test Acc: 0.7368
+2022-10-14 16:54:32,305 Epoch: 011, Train View Loss: 2.8856, Sim Loss: 0.3863, Cls Loss: 0.2140, CL Loss: 2.2853, Train Acc: 0.8333, Test Acc: 0.7368
+2022-10-14 16:54:32,369 Epoch: 012, Train View Loss: 2.8447, Sim Loss: 0.3707, Cls Loss: 0.1982, CL Loss: 2.2758, Train Acc: 0.8333, Test Acc: 0.7895
+2022-10-14 16:54:32,440 Epoch: 013, Train View Loss: 2.9814, Sim Loss: 0.4143, Cls Loss: 0.2089, CL Loss: 2.3582, Train Acc: 0.8889, Test Acc: 0.7895
+2022-10-14 16:54:32,520 Epoch: 014, Train View Loss: 2.9031, Sim Loss: 0.3489, Cls Loss: 0.2019, CL Loss: 2.3523, Train Acc: 0.8889, Test Acc: 0.7368
+2022-10-14 16:54:32,605 Epoch: 015, Train View Loss: 2.9465, Sim Loss: 0.3583, Cls Loss: 0.2320, CL Loss: 2.3562, Train Acc: 0.8889, Test Acc: 0.7368
+2022-10-14 16:54:32,671 Epoch: 016, Train View Loss: 2.8917, Sim Loss: 0.3894, Cls Loss: 0.2078, CL Loss: 2.2945, Train Acc: 0.8889, Test Acc: 0.7368
+2022-10-14 16:54:32,751 Epoch: 017, Train View Loss: 2.8472, Sim Loss: 0.3302, Cls Loss: 0.1959, CL Loss: 2.3210, Train Acc: 0.9444, Test Acc: 0.7368
+2022-10-14 16:54:32,817 Epoch: 018, Train View Loss: 2.8130, Sim Loss: 0.3209, Cls Loss: 0.1835, CL Loss: 2.3086, Train Acc: 0.8889, Test Acc: 0.7368
+2022-10-14 16:54:32,881 Epoch: 019, Train View Loss: 2.8789, Sim Loss: 0.3489, Cls Loss: 0.1947, CL Loss: 2.3353, Train Acc: 0.8889, Test Acc: 0.7895
+2022-10-14 16:54:32,946 Epoch: 020, Train View Loss: 2.7463, Sim Loss: 0.3209, Cls Loss: 0.1648, CL Loss: 2.2606, Train Acc: 0.8333, Test Acc: 0.7368
+2022-10-14 16:54:33,008 Epoch: 021, Train View Loss: 2.8305, Sim Loss: 0.3427, Cls Loss: 0.1952, CL Loss: 2.2926, Train Acc: 0.8333, Test Acc: 0.7368
+2022-10-14 16:54:33,070 Epoch: 022, Train View Loss: 2.8474, Sim Loss: 0.3364, Cls Loss: 0.1593, CL Loss: 2.3516, Train Acc: 0.8333, Test Acc: 0.7368
+2022-10-14 16:54:33,130 Epoch: 023, Train View Loss: 2.7634, Sim Loss: 0.3146, Cls Loss: 0.1823, CL Loss: 2.2665, Train Acc: 0.8889, Test Acc: 0.7368
+2022-10-14 16:54:33,193 Epoch: 024, Train View Loss: 2.8031, Sim Loss: 0.3583, Cls Loss: 0.1661, CL Loss: 2.2788, Train Acc: 0.8889, Test Acc: 0.7895
+2022-10-14 16:54:33,255 Epoch: 025, Train View Loss: 2.7653, Sim Loss: 0.3115, Cls Loss: 0.1597, CL Loss: 2.2941, Train Acc: 0.8889, Test Acc: 0.8421
+2022-10-14 16:54:33,316 Epoch: 026, Train View Loss: 2.8403, Sim Loss: 0.3396, Cls Loss: 0.1529, CL Loss: 2.3479, Train Acc: 0.8889, Test Acc: 0.7895
+2022-10-14 16:54:33,374 Epoch: 027, Train View Loss: 2.8255, Sim Loss: 0.3396, Cls Loss: 0.1250, CL Loss: 2.3610, Train Acc: 0.8889, Test Acc: 0.7895
+2022-10-14 16:54:33,433 Epoch: 028, Train View Loss: 2.7106, Sim Loss: 0.3271, Cls Loss: 0.1222, CL Loss: 2.2613, Train Acc: 0.9444, Test Acc: 0.7895
+2022-10-14 16:54:33,503 Epoch: 029, Train View Loss: 2.8068, Sim Loss: 0.3676, Cls Loss: 0.1276, CL Loss: 2.3116, Train Acc: 0.9444, Test Acc: 0.8421
+2022-10-14 16:54:33,571 Epoch: 030, Train View Loss: 2.8251, Sim Loss: 0.3333, Cls Loss: 0.1374, CL Loss: 2.3543, Train Acc: 0.8889, Test Acc: 0.7895
+2022-10-14 16:54:33,571 **********
+2022-10-14 16:54:33,572 Fold: 1
+2022-10-14 16:54:33,572 188
+2022-10-14 16:54:33,572 Train size: 169
+2022-10-14 16:54:33,572 Semi size: 18
+2022-10-14 16:54:33,573 Test size: 19
+2022-10-14 16:54:33,583 **************************************************
+2022-10-14 16:54:33,583 Training View Generator and Classifier...
+2022-10-14 16:54:33,653 Epoch: 001, Train View Loss: 4.2095, Sim Loss: 0.4487, Cls Loss: 0.8718, CL Loss: 2.8891, Train Acc: 0.4444, Test Acc: 0.5263
+2022-10-14 16:54:33,717 Epoch: 002, Train View Loss: 3.8575, Sim Loss: 0.5865, Cls Loss: 0.5623, CL Loss: 2.7087, Train Acc: 0.8889, Test Acc: 0.7368
+2022-10-14 16:54:33,783 Epoch: 003, Train View Loss: 3.2240, Sim Loss: 0.4985, Cls Loss: 0.3112, CL Loss: 2.4142, Train Acc: 0.8889, Test Acc: 0.5789
+2022-10-14 16:54:33,852 Epoch: 004, Train View Loss: 3.0085, Sim Loss: 0.3578, Cls Loss: 0.2470, CL Loss: 2.4037, Train Acc: 0.8889, Test Acc: 0.4737
+2022-10-14 16:54:33,932 Epoch: 005, Train View Loss: 3.0714, Sim Loss: 0.4692, Cls Loss: 0.2858, CL Loss: 2.3164, Train Acc: 0.8889, Test Acc: 0.6842
+2022-10-14 16:54:34,002 Epoch: 006, Train View Loss: 3.1383, Sim Loss: 0.4809, Cls Loss: 0.4085, CL Loss: 2.2488, Train Acc: 0.8889, Test Acc: 0.7368
+2022-10-14 16:54:34,068 Epoch: 007, Train View Loss: 3.1233, Sim Loss: 0.5191, Cls Loss: 0.3513, CL Loss: 2.2529, Train Acc: 0.8333, Test Acc: 0.7895
+2022-10-14 16:54:34,137 Epoch: 008, Train View Loss: 3.0547, Sim Loss: 0.4751, Cls Loss: 0.3389, CL Loss: 2.2408, Train Acc: 0.8333, Test Acc: 0.8421
+2022-10-14 16:54:34,200 Epoch: 009, Train View Loss: 2.9468, Sim Loss: 0.4751, Cls Loss: 0.2220, CL Loss: 2.2497, Train Acc: 0.7778, Test Acc: 0.8421
+2022-10-14 16:54:34,274 Epoch: 010, Train View Loss: 2.9643, Sim Loss: 0.4897, Cls Loss: 0.1950, CL Loss: 2.2796, Train Acc: 0.7778, Test Acc: 0.8421
+2022-10-14 16:54:34,344 Epoch: 011, Train View Loss: 2.8753, Sim Loss: 0.4604, Cls Loss: 0.1706, CL Loss: 2.2443, Train Acc: 0.7778, Test Acc: 0.7895
+2022-10-14 16:54:34,415 Epoch: 012, Train View Loss: 2.9562, Sim Loss: 0.4897, Cls Loss: 0.1480, CL Loss: 2.3184, Train Acc: 0.7222, Test Acc: 0.7895
+2022-10-14 16:54:34,481 Epoch: 013, Train View Loss: 2.8229, Sim Loss: 0.4340, Cls Loss: 0.1017, CL Loss: 2.2872, Train Acc: 0.7222, Test Acc: 0.7895
+2022-10-14 16:54:34,553 Epoch: 014, Train View Loss: 3.1216, Sim Loss: 0.4340, Cls Loss: 0.1650, CL Loss: 2.5226, Train Acc: 0.7222, Test Acc: 0.7895
+2022-10-14 16:54:34,622 Epoch: 015, Train View Loss: 2.7976, Sim Loss: 0.4076, Cls Loss: 0.1127, CL Loss: 2.2773, Train Acc: 0.7778, Test Acc: 0.7895
+2022-10-14 16:54:34,701 Epoch: 016, Train View Loss: 2.8661, Sim Loss: 0.4018, Cls Loss: 0.1340, CL Loss: 2.3303, Train Acc: 0.7778, Test Acc: 0.7895
+2022-10-14 16:54:34,804 Epoch: 017, Train View Loss: 2.8464, Sim Loss: 0.4076, Cls Loss: 0.1598, CL Loss: 2.2789, Train Acc: 0.7778, Test Acc: 0.7895
+2022-10-14 16:54:34,885 Epoch: 018, Train View Loss: 3.1237, Sim Loss: 0.3578, Cls Loss: 0.2059, CL Loss: 2.5600, Train Acc: 0.7778, Test Acc: 0.8421
+2022-10-14 16:54:34,957 Epoch: 019, Train View Loss: 3.0125, Sim Loss: 0.4047, Cls Loss: 0.1633, CL Loss: 2.4446, Train Acc: 1.0000, Test Acc: 0.8421
+2022-10-14 16:54:35,036 Epoch: 020, Train View Loss: 2.8543, Sim Loss: 0.3930, Cls Loss: 0.1135, CL Loss: 2.3479, Train Acc: 0.9444, Test Acc: 0.7368
+2022-10-14 16:54:35,105 Epoch: 021, Train View Loss: 2.8128, Sim Loss: 0.3196, Cls Loss: 0.1252, CL Loss: 2.3680, Train Acc: 0.8889, Test Acc: 0.5789
+2022-10-14 16:54:35,174 Epoch: 022, Train View Loss: 3.0001, Sim Loss: 0.3402, Cls Loss: 0.2044, CL Loss: 2.4556, Train Acc: 0.8889, Test Acc: 0.5263
+2022-10-14 16:54:35,248 Epoch: 023, Train View Loss: 2.9683, Sim Loss: 0.3460, Cls Loss: 0.1991, CL Loss: 2.4232, Train Acc: 0.8889, Test Acc: 0.5263
+2022-10-14 16:54:35,321 Epoch: 024, Train View Loss: 2.7883, Sim Loss: 0.3636, Cls Loss: 0.1494, CL Loss: 2.2753, Train Acc: 0.9444, Test Acc: 0.6316
+2022-10-14 16:54:35,397 Epoch: 025, Train View Loss: 2.8407, Sim Loss: 0.2874, Cls Loss: 0.1756, CL Loss: 2.3777, Train Acc: 0.9444, Test Acc: 0.6316
+2022-10-14 16:54:35,488 Epoch: 026, Train View Loss: 2.7408, Sim Loss: 0.3578, Cls Loss: 0.1226, CL Loss: 2.2604, Train Acc: 0.9444, Test Acc: 0.7368
+2022-10-14 16:54:35,602 Epoch: 027, Train View Loss: 2.8165, Sim Loss: 0.2903, Cls Loss: 0.2460, CL Loss: 2.2801, Train Acc: 1.0000, Test Acc: 0.7895
+2022-10-14 16:54:35,675 Epoch: 028, Train View Loss: 2.6591, Sim Loss: 0.3021, Cls Loss: 0.0980, CL Loss: 2.2590, Train Acc: 1.0000, Test Acc: 0.8421
+2022-10-14 16:54:35,744 Epoch: 029, Train View Loss: 2.9643, Sim Loss: 0.2962, Cls Loss: 0.2084, CL Loss: 2.4597, Train Acc: 0.8889, Test Acc: 0.7895
+2022-10-14 16:54:35,816 Epoch: 030, Train View Loss: 2.8358, Sim Loss: 0.2845, Cls Loss: 0.1864, CL Loss: 2.3650, Train Acc: 0.8889, Test Acc: 0.7895
+2022-10-14 16:54:35,817 **********
+2022-10-14 16:54:35,817 Fold: 2
+2022-10-14 16:54:35,817 188
+2022-10-14 16:54:35,817 Train size: 169
+2022-10-14 16:54:35,817 Semi size: 18
+2022-10-14 16:54:35,818 Test size: 19
+2022-10-14 16:54:35,831 **************************************************
+2022-10-14 16:54:35,831 Training View Generator and Classifier...
+2022-10-14 16:54:35,901 Epoch: 001, Train View Loss: 4.0967, Sim Loss: 0.4661, Cls Loss: 0.8098, CL Loss: 2.8208, Train Acc: 0.5000, Test Acc: 0.4211
+2022-10-14 16:54:35,967 Epoch: 002, Train View Loss: 4.3658, Sim Loss: 0.3215, Cls Loss: 1.0697, CL Loss: 2.9745, Train Acc: 0.7222, Test Acc: 0.6316
+2022-10-14 16:54:36,036 Epoch: 003, Train View Loss: 3.6787, Sim Loss: 0.3687, Cls Loss: 0.4791, CL Loss: 2.8309, Train Acc: 0.3333, Test Acc: 0.3684
+2022-10-14 16:54:36,109 Epoch: 004, Train View Loss: 3.5661, Sim Loss: 0.4572, Cls Loss: 0.3480, CL Loss: 2.7608, Train Acc: 0.3889, Test Acc: 0.4211
+2022-10-14 16:54:36,192 Epoch: 005, Train View Loss: 3.1769, Sim Loss: 0.4484, Cls Loss: 0.2693, CL Loss: 2.4593, Train Acc: 0.8333, Test Acc: 0.7368
+2022-10-14 16:54:36,329 Epoch: 006, Train View Loss: 3.1513, Sim Loss: 0.4159, Cls Loss: 0.2844, CL Loss: 2.4509, Train Acc: 0.8333, Test Acc: 0.7368
+2022-10-14 16:54:36,420 Epoch: 007, Train View Loss: 3.0575, Sim Loss: 0.4130, Cls Loss: 0.2815, CL Loss: 2.3630, Train Acc: 0.9444, Test Acc: 0.9474
+2022-10-14 16:54:36,492 Epoch: 008, Train View Loss: 3.0584, Sim Loss: 0.4159, Cls Loss: 0.2245, CL Loss: 2.4180, Train Acc: 0.8889, Test Acc: 0.8421
+2022-10-14 16:54:36,557 Epoch: 009, Train View Loss: 3.1801, Sim Loss: 0.4130, Cls Loss: 0.2834, CL Loss: 2.4837, Train Acc: 0.8889, Test Acc: 0.8421
+2022-10-14 16:54:36,621 Epoch: 010, Train View Loss: 3.1038, Sim Loss: 0.4130, Cls Loss: 0.2205, CL Loss: 2.4704, Train Acc: 0.8889, Test Acc: 0.8947
+2022-10-14 16:54:36,686 Epoch: 011, Train View Loss: 3.3248, Sim Loss: 0.4041, Cls Loss: 0.3221, CL Loss: 2.5985, Train Acc: 0.8889, Test Acc: 0.8421
+2022-10-14 16:54:36,755 Epoch: 012, Train View Loss: 3.0624, Sim Loss: 0.3746, Cls Loss: 0.2443, CL Loss: 2.4434, Train Acc: 0.8889, Test Acc: 0.8421
+2022-10-14 16:54:36,819 Epoch: 013, Train View Loss: 2.9989, Sim Loss: 0.3894, Cls Loss: 0.1916, CL Loss: 2.4180, Train Acc: 0.8889, Test Acc: 0.7895
+2022-10-14 16:54:36,895 Epoch: 014, Train View Loss: 3.0679, Sim Loss: 0.3658, Cls Loss: 0.2124, CL Loss: 2.4897, Train Acc: 0.8889, Test Acc: 0.7895
+2022-10-14 16:54:36,970 Epoch: 015, Train View Loss: 3.2561, Sim Loss: 0.4041, Cls Loss: 0.2541, CL Loss: 2.5978, Train Acc: 0.8889, Test Acc: 0.7895
+2022-10-14 16:54:37,043 Epoch: 016, Train View Loss: 3.1232, Sim Loss: 0.4307, Cls Loss: 0.2205, CL Loss: 2.4720, Train Acc: 0.8889, Test Acc: 0.8421
+2022-10-14 16:54:37,111 Epoch: 017, Train View Loss: 3.0701, Sim Loss: 0.3717, Cls Loss: 0.2310, CL Loss: 2.4674, Train Acc: 0.8889, Test Acc: 0.6842
+2022-10-14 16:54:37,191 Epoch: 018, Train View Loss: 3.0899, Sim Loss: 0.4071, Cls Loss: 0.2251, CL Loss: 2.4577, Train Acc: 0.8889, Test Acc: 0.6842
+2022-10-14 16:54:37,257 Epoch: 019, Train View Loss: 3.0425, Sim Loss: 0.3628, Cls Loss: 0.2199, CL Loss: 2.4598, Train Acc: 0.9444, Test Acc: 0.6316
+2022-10-14 16:54:37,323 Epoch: 020, Train View Loss: 3.0375, Sim Loss: 0.4130, Cls Loss: 0.1946, CL Loss: 2.4300, Train Acc: 0.9444, Test Acc: 0.5789
+2022-10-14 16:54:37,400 Epoch: 021, Train View Loss: 2.9563, Sim Loss: 0.3392, Cls Loss: 0.2053, CL Loss: 2.4118, Train Acc: 0.7778, Test Acc: 0.5789
+2022-10-14 16:54:37,475 Epoch: 022, Train View Loss: 3.0330, Sim Loss: 0.3658, Cls Loss: 0.1627, CL Loss: 2.5045, Train Acc: 0.7778, Test Acc: 0.5789
+2022-10-14 16:54:37,546 Epoch: 023, Train View Loss: 3.1522, Sim Loss: 0.4100, Cls Loss: 0.2749, CL Loss: 2.4673, Train Acc: 0.7778, Test Acc: 0.5789
+2022-10-14 16:54:37,616 Epoch: 024, Train View Loss: 2.9224, Sim Loss: 0.3628, Cls Loss: 0.1615, CL Loss: 2.3981, Train Acc: 0.8333, Test Acc: 0.6842
+2022-10-14 16:54:37,685 Epoch: 025, Train View Loss: 2.9039, Sim Loss: 0.3864, Cls Loss: 0.1819, CL Loss: 2.3355, Train Acc: 0.8889, Test Acc: 0.7368
+2022-10-14 16:54:37,751 Epoch: 026, Train View Loss: 3.0995, Sim Loss: 0.4071, Cls Loss: 0.2326, CL Loss: 2.4599, Train Acc: 0.9444, Test Acc: 0.6842
+2022-10-14 16:54:37,818 Epoch: 027, Train View Loss: 3.0026, Sim Loss: 0.3776, Cls Loss: 0.1590, CL Loss: 2.4661, Train Acc: 0.8889, Test Acc: 0.6316
+2022-10-14 16:54:37,887 Epoch: 028, Train View Loss: 3.0027, Sim Loss: 0.3923, Cls Loss: 0.1688, CL Loss: 2.4416, Train Acc: 0.8333, Test Acc: 0.5789
+2022-10-14 16:54:37,954 Epoch: 029, Train View Loss: 3.1449, Sim Loss: 0.3776, Cls Loss: 0.1709, CL Loss: 2.5965, Train Acc: 0.8889, Test Acc: 0.6316
+2022-10-14 16:54:38,021 Epoch: 030, Train View Loss: 2.9693, Sim Loss: 0.3687, Cls Loss: 0.1695, CL Loss: 2.4311, Train Acc: 0.8889, Test Acc: 0.5789
+2022-10-14 16:54:38,022 **********
+2022-10-14 16:54:38,022 Fold: 3
+2022-10-14 16:54:38,022 188
+2022-10-14 16:54:38,022 Train size: 169
+2022-10-14 16:54:38,022 Semi size: 18
+2022-10-14 16:54:38,022 Test size: 19
+2022-10-14 16:54:38,039 **************************************************
+2022-10-14 16:54:38,039 Training View Generator and Classifier...
+2022-10-14 16:54:38,114 Epoch: 001, Train View Loss: 4.1769, Sim Loss: 0.5183, Cls Loss: 0.7102, CL Loss: 2.9484, Train Acc: 0.2222, Test Acc: 0.4211
+2022-10-14 16:54:38,198 Epoch: 002, Train View Loss: 3.5100, Sim Loss: 0.3803, Cls Loss: 0.5754, CL Loss: 2.5543, Train Acc: 0.9444, Test Acc: 0.8947
+2022-10-14 16:54:38,276 Epoch: 003, Train View Loss: 4.1481, Sim Loss: 0.4028, Cls Loss: 0.6146, CL Loss: 3.1308, Train Acc: 0.9444, Test Acc: 0.8421
+2022-10-14 16:54:38,346 Epoch: 004, Train View Loss: 3.2780, Sim Loss: 0.5352, Cls Loss: 0.3751, CL Loss: 2.3677, Train Acc: 0.8889, Test Acc: 0.8421
+2022-10-14 16:54:38,412 Epoch: 005, Train View Loss: 3.4290, Sim Loss: 0.6113, Cls Loss: 0.3809, CL Loss: 2.4368, Train Acc: 0.9444, Test Acc: 0.8947
+2022-10-14 16:54:38,479 Epoch: 006, Train View Loss: 3.2688, Sim Loss: 0.4732, Cls Loss: 0.3716, CL Loss: 2.4239, Train Acc: 0.8889, Test Acc: 0.8947
+2022-10-14 16:54:38,564 Epoch: 007, Train View Loss: 3.1980, Sim Loss: 0.4056, Cls Loss: 0.2773, CL Loss: 2.5151, Train Acc: 0.9444, Test Acc: 0.8947
+2022-10-14 16:54:38,650 Epoch: 008, Train View Loss: 3.0007, Sim Loss: 0.4000, Cls Loss: 0.2008, CL Loss: 2.3999, Train Acc: 0.9444, Test Acc: 0.8947
+2022-10-14 16:54:38,723 Epoch: 009, Train View Loss: 3.1986, Sim Loss: 0.3859, Cls Loss: 0.2691, CL Loss: 2.5436, Train Acc: 0.8889, Test Acc: 0.8947
+2022-10-14 16:54:38,816 Epoch: 010, Train View Loss: 3.1570, Sim Loss: 0.3803, Cls Loss: 0.1864, CL Loss: 2.5903, Train Acc: 0.8889, Test Acc: 0.8947
+2022-10-14 16:54:38,886 Epoch: 011, Train View Loss: 3.0491, Sim Loss: 0.3775, Cls Loss: 0.2135, CL Loss: 2.4582, Train Acc: 0.9444, Test Acc: 0.8421
+2022-10-14 16:54:38,962 Epoch: 012, Train View Loss: 3.0547, Sim Loss: 0.3803, Cls Loss: 0.2624, CL Loss: 2.4121, Train Acc: 0.8889, Test Acc: 0.7895
+2022-10-14 16:54:39,043 Epoch: 013, Train View Loss: 3.0091, Sim Loss: 0.3944, Cls Loss: 0.2107, CL Loss: 2.4041, Train Acc: 0.8333, Test Acc: 0.7368
+2022-10-14 16:54:39,146 Epoch: 014, Train View Loss: 3.0236, Sim Loss: 0.3831, Cls Loss: 0.1391, CL Loss: 2.5014, Train Acc: 0.6111, Test Acc: 0.6842
+2022-10-14 16:54:39,221 Epoch: 015, Train View Loss: 2.9268, Sim Loss: 0.3606, Cls Loss: 0.1689, CL Loss: 2.3973, Train Acc: 0.7222, Test Acc: 0.6842
+2022-10-14 16:54:39,310 Epoch: 016, Train View Loss: 2.9695, Sim Loss: 0.3746, Cls Loss: 0.1973, CL Loss: 2.3976, Train Acc: 0.7778, Test Acc: 0.7368
+2022-10-14 16:54:39,388 Epoch: 017, Train View Loss: 3.0176, Sim Loss: 0.3549, Cls Loss: 0.1987, CL Loss: 2.4640, Train Acc: 0.7778, Test Acc: 0.8421
+2022-10-14 16:54:39,454 Epoch: 018, Train View Loss: 2.9081, Sim Loss: 0.2901, Cls Loss: 0.1974, CL Loss: 2.4205, Train Acc: 0.6667, Test Acc: 0.6842
+2022-10-14 16:54:39,525 Epoch: 019, Train View Loss: 2.9468, Sim Loss: 0.3634, Cls Loss: 0.2231, CL Loss: 2.3603, Train Acc: 0.6111, Test Acc: 0.6316
+2022-10-14 16:54:39,600 Epoch: 020, Train View Loss: 3.1136, Sim Loss: 0.3634, Cls Loss: 0.1711, CL Loss: 2.5792, Train Acc: 0.8889, Test Acc: 0.7895
+2022-10-14 16:54:39,674 Epoch: 021, Train View Loss: 3.0688, Sim Loss: 0.3662, Cls Loss: 0.2550, CL Loss: 2.4476, Train Acc: 0.9444, Test Acc: 0.8947
+2022-10-14 16:54:39,767 Epoch: 022, Train View Loss: 2.9060, Sim Loss: 0.3549, Cls Loss: 0.1624, CL Loss: 2.3887, Train Acc: 0.9444, Test Acc: 0.9474
+2022-10-14 16:54:39,850 Epoch: 023, Train View Loss: 2.8954, Sim Loss: 0.3437, Cls Loss: 0.1644, CL Loss: 2.3873, Train Acc: 1.0000, Test Acc: 0.9474
+2022-10-14 16:54:39,923 Epoch: 024, Train View Loss: 2.7868, Sim Loss: 0.3042, Cls Loss: 0.0914, CL Loss: 2.3911, Train Acc: 0.9444, Test Acc: 0.8947
+2022-10-14 16:54:40,005 Epoch: 025, Train View Loss: 2.8554, Sim Loss: 0.3352, Cls Loss: 0.1224, CL Loss: 2.3978, Train Acc: 0.9444, Test Acc: 0.8947
+2022-10-14 16:54:40,083 Epoch: 026, Train View Loss: 3.0240, Sim Loss: 0.3662, Cls Loss: 0.0798, CL Loss: 2.5781, Train Acc: 0.9444, Test Acc: 0.9474
+2022-10-14 16:54:40,158 Epoch: 027, Train View Loss: 2.9373, Sim Loss: 0.3803, Cls Loss: 0.0748, CL Loss: 2.4822, Train Acc: 0.9444, Test Acc: 0.9474
+2022-10-14 16:54:40,237 Epoch: 028, Train View Loss: 2.8548, Sim Loss: 0.3662, Cls Loss: 0.1013, CL Loss: 2.3872, Train Acc: 1.0000, Test Acc: 0.9474
+2022-10-14 16:54:40,310 Epoch: 029, Train View Loss: 2.8129, Sim Loss: 0.3127, Cls Loss: 0.0904, CL Loss: 2.4098, Train Acc: 0.9444, Test Acc: 0.9474
+2022-10-14 16:54:40,392 Epoch: 030, Train View Loss: 2.8903, Sim Loss: 0.3606, Cls Loss: 0.1474, CL Loss: 2.3823, Train Acc: 0.9444, Test Acc: 0.9474
+2022-10-14 16:54:40,393 **********
+2022-10-14 16:54:40,393 Fold: 4
+2022-10-14 16:54:40,393 188
+2022-10-14 16:54:40,393 Train size: 169
+2022-10-14 16:54:40,394 Semi size: 18
+2022-10-14 16:54:40,394 Test size: 19
+2022-10-14 16:54:40,409 **************************************************
+2022-10-14 16:54:40,410 Training View Generator and Classifier...
+2022-10-14 16:54:40,490 Epoch: 001, Train View Loss: 4.0690, Sim Loss: 0.3763, Cls Loss: 0.9150, CL Loss: 2.7777, Train Acc: 0.7222, Test Acc: 0.7895
+2022-10-14 16:54:40,560 Epoch: 002, Train View Loss: 4.3998, Sim Loss: 0.6516, Cls Loss: 0.9665, CL Loss: 2.7818, Train Acc: 0.5556, Test Acc: 0.7368
+2022-10-14 16:54:40,637 Epoch: 003, Train View Loss: 3.5471, Sim Loss: 0.5749, Cls Loss: 0.5059, CL Loss: 2.4663, Train Acc: 0.8889, Test Acc: 0.8421
+2022-10-14 16:54:40,717 Epoch: 004, Train View Loss: 3.4485, Sim Loss: 0.5958, Cls Loss: 0.3155, CL Loss: 2.5373, Train Acc: 0.6667, Test Acc: 0.7895
+2022-10-14 16:54:40,791 Epoch: 005, Train View Loss: 3.4288, Sim Loss: 0.6202, Cls Loss: 0.2567, CL Loss: 2.5519, Train Acc: 0.6667, Test Acc: 0.7368
+2022-10-14 16:54:40,868 Epoch: 006, Train View Loss: 3.0715, Sim Loss: 0.5749, Cls Loss: 0.1871, CL Loss: 2.3095, Train Acc: 0.6667, Test Acc: 0.7368
+2022-10-14 16:54:40,951 Epoch: 007, Train View Loss: 3.1077, Sim Loss: 0.5923, Cls Loss: 0.2065, CL Loss: 2.3089, Train Acc: 0.6667, Test Acc: 0.7895
+2022-10-14 16:54:41,036 Epoch: 008, Train View Loss: 3.0829, Sim Loss: 0.5470, Cls Loss: 0.1812, CL Loss: 2.3547, Train Acc: 0.8333, Test Acc: 0.7368
+2022-10-14 16:54:41,113 Epoch: 009, Train View Loss: 2.9676, Sim Loss: 0.4948, Cls Loss: 0.1739, CL Loss: 2.2989, Train Acc: 0.8889, Test Acc: 0.8421
+2022-10-14 16:54:41,183 Epoch: 010, Train View Loss: 3.1076, Sim Loss: 0.5505, Cls Loss: 0.1779, CL Loss: 2.3791, Train Acc: 0.8889, Test Acc: 0.8421
+2022-10-14 16:54:41,258 Epoch: 011, Train View Loss: 2.9534, Sim Loss: 0.4669, Cls Loss: 0.1629, CL Loss: 2.3236, Train Acc: 0.8889, Test Acc: 0.7368
+2022-10-14 16:54:41,341 Epoch: 012, Train View Loss: 2.9569, Sim Loss: 0.4739, Cls Loss: 0.1991, CL Loss: 2.2839, Train Acc: 0.7222, Test Acc: 0.7368
+2022-10-14 16:54:41,415 Epoch: 013, Train View Loss: 3.1571, Sim Loss: 0.4216, Cls Loss: 0.2677, CL Loss: 2.4678, Train Acc: 0.7222, Test Acc: 0.6842
+2022-10-14 16:54:41,491 Epoch: 014, Train View Loss: 2.8957, Sim Loss: 0.3937, Cls Loss: 0.2179, CL Loss: 2.2841, Train Acc: 0.6111, Test Acc: 0.6842
+2022-10-14 16:54:41,568 Epoch: 015, Train View Loss: 2.9666, Sim Loss: 0.3937, Cls Loss: 0.2404, CL Loss: 2.3324, Train Acc: 0.6111, Test Acc: 0.6842
+2022-10-14 16:54:41,645 Epoch: 016, Train View Loss: 3.0420, Sim Loss: 0.4774, Cls Loss: 0.1882, CL Loss: 2.3765, Train Acc: 0.6111, Test Acc: 0.6842
+2022-10-14 16:54:41,725 Epoch: 017, Train View Loss: 2.9098, Sim Loss: 0.3902, Cls Loss: 0.2293, CL Loss: 2.2903, Train Acc: 0.7222, Test Acc: 0.6842
+2022-10-14 16:54:41,793 Epoch: 018, Train View Loss: 3.0288, Sim Loss: 0.4077, Cls Loss: 0.2135, CL Loss: 2.4076, Train Acc: 0.8333, Test Acc: 0.6316
+2022-10-14 16:54:41,867 Epoch: 019, Train View Loss: 2.9577, Sim Loss: 0.3589, Cls Loss: 0.2576, CL Loss: 2.3412, Train Acc: 0.8889, Test Acc: 0.7895
+2022-10-14 16:54:41,941 Epoch: 020, Train View Loss: 3.0370, Sim Loss: 0.3484, Cls Loss: 0.2799, CL Loss: 2.4087, Train Acc: 0.8889, Test Acc: 0.7895
+2022-10-14 16:54:42,024 Epoch: 021, Train View Loss: 3.1529, Sim Loss: 0.4355, Cls Loss: 0.2568, CL Loss: 2.4606, Train Acc: 0.8889, Test Acc: 0.7895
+2022-10-14 16:54:42,153 Epoch: 022, Train View Loss: 2.8858, Sim Loss: 0.4564, Cls Loss: 0.1473, CL Loss: 2.2820, Train Acc: 0.8889, Test Acc: 0.7895
+2022-10-14 16:54:42,272 Epoch: 023, Train View Loss: 2.9539, Sim Loss: 0.4704, Cls Loss: 0.1103, CL Loss: 2.3732, Train Acc: 0.7778, Test Acc: 0.7895
+2022-10-14 16:54:42,342 Epoch: 024, Train View Loss: 3.1037, Sim Loss: 0.4599, Cls Loss: 0.2003, CL Loss: 2.4435, Train Acc: 0.7778, Test Acc: 0.7895
+2022-10-14 16:54:42,411 Epoch: 025, Train View Loss: 3.0240, Sim Loss: 0.4495, Cls Loss: 0.2056, CL Loss: 2.3689, Train Acc: 0.8889, Test Acc: 0.7895
+2022-10-14 16:54:42,477 Epoch: 026, Train View Loss: 2.9570, Sim Loss: 0.4181, Cls Loss: 0.1721, CL Loss: 2.3667, Train Acc: 0.8889, Test Acc: 0.7368
+2022-10-14 16:54:42,546 Epoch: 027, Train View Loss: 2.9819, Sim Loss: 0.4321, Cls Loss: 0.2581, CL Loss: 2.2917, Train Acc: 0.8889, Test Acc: 0.6842
+2022-10-14 16:54:42,618 Epoch: 028, Train View Loss: 2.9468, Sim Loss: 0.4599, Cls Loss: 0.1968, CL Loss: 2.2900, Train Acc: 0.7778, Test Acc: 0.6842
+2022-10-14 16:54:42,689 Epoch: 029, Train View Loss: 3.0811, Sim Loss: 0.4251, Cls Loss: 0.3149, CL Loss: 2.3412, Train Acc: 0.7778, Test Acc: 0.6842
+2022-10-14 16:54:42,756 Epoch: 030, Train View Loss: 2.9397, Sim Loss: 0.4216, Cls Loss: 0.2203, CL Loss: 2.2978, Train Acc: 0.6667, Test Acc: 0.6842
+2022-10-14 16:54:42,756 **********
+2022-10-14 16:54:42,756 Fold: 5
+2022-10-14 16:54:42,757 188
+2022-10-14 16:54:42,757 Train size: 169
+2022-10-14 16:54:42,757 Semi size: 18
+2022-10-14 16:54:42,757 Test size: 19
+2022-10-14 16:54:42,772 **************************************************
+2022-10-14 16:54:42,772 Training View Generator and Classifier...
+2022-10-14 16:54:42,841 Epoch: 001, Train View Loss: 4.0098, Sim Loss: 0.4356, Cls Loss: 0.7258, CL Loss: 2.8485, Train Acc: 0.7778, Test Acc: 0.5789
+2022-10-14 16:54:42,913 Epoch: 002, Train View Loss: 4.0645, Sim Loss: 0.4693, Cls Loss: 0.7173, CL Loss: 2.8779, Train Acc: 0.7778, Test Acc: 0.5789
+2022-10-14 16:54:42,986 Epoch: 003, Train View Loss: 4.2075, Sim Loss: 0.4509, Cls Loss: 0.8659, CL Loss: 2.8907, Train Acc: 0.8333, Test Acc: 0.8421
+2022-10-14 16:54:43,052 Epoch: 004, Train View Loss: 3.6791, Sim Loss: 0.5399, Cls Loss: 0.5073, CL Loss: 2.6319, Train Acc: 0.8889, Test Acc: 0.8421
+2022-10-14 16:54:43,124 Epoch: 005, Train View Loss: 3.3297, Sim Loss: 0.4969, Cls Loss: 0.4214, CL Loss: 2.4114, Train Acc: 0.8889, Test Acc: 0.5789
+2022-10-14 16:54:43,191 Epoch: 006, Train View Loss: 3.3174, Sim Loss: 0.5368, Cls Loss: 0.3309, CL Loss: 2.4497, Train Acc: 0.8889, Test Acc: 0.5789
+2022-10-14 16:54:43,276 Epoch: 007, Train View Loss: 3.5346, Sim Loss: 0.5031, Cls Loss: 0.3446, CL Loss: 2.6869, Train Acc: 0.8333, Test Acc: 0.7895
+2022-10-14 16:54:43,357 Epoch: 008, Train View Loss: 3.4005, Sim Loss: 0.4969, Cls Loss: 0.2954, CL Loss: 2.6082, Train Acc: 0.8333, Test Acc: 0.7895
+2022-10-14 16:54:43,423 Epoch: 009, Train View Loss: 3.2946, Sim Loss: 0.3896, Cls Loss: 0.3475, CL Loss: 2.5575, Train Acc: 0.7778, Test Acc: 0.8421
+2022-10-14 16:54:43,494 Epoch: 010, Train View Loss: 3.2760, Sim Loss: 0.4018, Cls Loss: 0.3404, CL Loss: 2.5337, Train Acc: 0.8889, Test Acc: 0.6842
+2022-10-14 16:54:43,562 Epoch: 011, Train View Loss: 3.1769, Sim Loss: 0.5000, Cls Loss: 0.2580, CL Loss: 2.4189, Train Acc: 0.8889, Test Acc: 0.5789
+2022-10-14 16:54:43,629 Epoch: 012, Train View Loss: 3.2801, Sim Loss: 0.5828, Cls Loss: 0.2461, CL Loss: 2.4512, Train Acc: 0.8889, Test Acc: 0.5789
+2022-10-14 16:54:43,692 Epoch: 013, Train View Loss: 3.2944, Sim Loss: 0.5828, Cls Loss: 0.2848, CL Loss: 2.4268, Train Acc: 0.8889, Test Acc: 0.5789
+2022-10-14 16:54:43,775 Epoch: 014, Train View Loss: 3.4210, Sim Loss: 0.5460, Cls Loss: 0.3175, CL Loss: 2.5575, Train Acc: 0.8889, Test Acc: 0.5789
+2022-10-14 16:54:43,851 Epoch: 015, Train View Loss: 3.2225, Sim Loss: 0.4969, Cls Loss: 0.2679, CL Loss: 2.4577, Train Acc: 0.8333, Test Acc: 0.6842
+2022-10-14 16:54:43,927 Epoch: 016, Train View Loss: 3.1045, Sim Loss: 0.4939, Cls Loss: 0.1983, CL Loss: 2.4124, Train Acc: 0.8889, Test Acc: 0.6842
+2022-10-14 16:54:44,010 Epoch: 017, Train View Loss: 3.1309, Sim Loss: 0.4816, Cls Loss: 0.2135, CL Loss: 2.4358, Train Acc: 0.7778, Test Acc: 0.6842
+2022-10-14 16:54:44,081 Epoch: 018, Train View Loss: 3.0470, Sim Loss: 0.4325, Cls Loss: 0.1880, CL Loss: 2.4264, Train Acc: 0.8333, Test Acc: 0.6316
+2022-10-14 16:54:44,152 Epoch: 019, Train View Loss: 3.2546, Sim Loss: 0.4294, Cls Loss: 0.2650, CL Loss: 2.5601, Train Acc: 0.8333, Test Acc: 0.5789
+2022-10-14 16:54:44,225 Epoch: 020, Train View Loss: 3.0982, Sim Loss: 0.3681, Cls Loss: 0.2118, CL Loss: 2.5184, Train Acc: 0.8333, Test Acc: 0.6842
+2022-10-14 16:54:44,299 Epoch: 021, Train View Loss: 2.9468, Sim Loss: 0.3712, Cls Loss: 0.1089, CL Loss: 2.4667, Train Acc: 0.9444, Test Acc: 0.6316
+2022-10-14 16:54:44,370 Epoch: 022, Train View Loss: 3.0124, Sim Loss: 0.3282, Cls Loss: 0.1501, CL Loss: 2.5341, Train Acc: 0.9444, Test Acc: 0.6316
+2022-10-14 16:54:44,484 Epoch: 023, Train View Loss: 3.2157, Sim Loss: 0.3497, Cls Loss: 0.2337, CL Loss: 2.6323, Train Acc: 0.9444, Test Acc: 0.6316
+2022-10-14 16:54:44,564 Epoch: 024, Train View Loss: 3.0873, Sim Loss: 0.3926, Cls Loss: 0.1950, CL Loss: 2.4996, Train Acc: 0.9444, Test Acc: 0.6316
+2022-10-14 16:54:44,648 Epoch: 025, Train View Loss: 3.0637, Sim Loss: 0.4172, Cls Loss: 0.1625, CL Loss: 2.4841, Train Acc: 0.9444, Test Acc: 0.6842
+2022-10-14 16:54:44,721 Epoch: 026, Train View Loss: 3.0367, Sim Loss: 0.4387, Cls Loss: 0.1347, CL Loss: 2.4633, Train Acc: 0.8333, Test Acc: 0.7895
+2022-10-14 16:54:44,795 Epoch: 027, Train View Loss: 3.0603, Sim Loss: 0.4908, Cls Loss: 0.1108, CL Loss: 2.4587, Train Acc: 0.8333, Test Acc: 0.7895
+2022-10-14 16:54:44,869 Epoch: 028, Train View Loss: 3.1120, Sim Loss: 0.4847, Cls Loss: 0.1516, CL Loss: 2.4758, Train Acc: 0.8333, Test Acc: 0.7895
+2022-10-14 16:54:44,944 Epoch: 029, Train View Loss: 3.1561, Sim Loss: 0.4755, Cls Loss: 0.1594, CL Loss: 2.5212, Train Acc: 0.8333, Test Acc: 0.7895
+2022-10-14 16:54:45,019 Epoch: 030, Train View Loss: 3.1901, Sim Loss: 0.4693, Cls Loss: 0.1838, CL Loss: 2.5370, Train Acc: 0.9444, Test Acc: 0.7895
+2022-10-14 16:54:45,020 **********
+2022-10-14 16:54:45,020 Fold: 6
+2022-10-14 16:54:45,020 188
+2022-10-14 16:54:45,020 Train size: 169
+2022-10-14 16:54:45,020 Semi size: 18
+2022-10-14 16:54:45,021 Test size: 19
+2022-10-14 16:54:45,045 **************************************************
+2022-10-14 16:54:45,045 Training View Generator and Classifier...
+2022-10-14 16:54:45,137 Epoch: 001, Train View Loss: 4.1893, Sim Loss: 0.4765, Cls Loss: 0.7267, CL Loss: 2.9861, Train Acc: 0.4444, Test Acc: 0.3158
+2022-10-14 16:54:45,213 Epoch: 002, Train View Loss: 4.8969, Sim Loss: 0.4912, Cls Loss: 1.2697, CL Loss: 3.1360, Train Acc: 0.7222, Test Acc: 0.7368
+2022-10-14 16:54:45,292 Epoch: 003, Train View Loss: 4.1425, Sim Loss: 0.3588, Cls Loss: 0.7929, CL Loss: 2.9907, Train Acc: 0.8333, Test Acc: 0.8421
+2022-10-14 16:54:45,373 Epoch: 004, Train View Loss: 3.5469, Sim Loss: 0.4206, Cls Loss: 0.4330, CL Loss: 2.6932, Train Acc: 0.7778, Test Acc: 0.8421
+2022-10-14 16:54:45,450 Epoch: 005, Train View Loss: 3.4659, Sim Loss: 0.4882, Cls Loss: 0.4308, CL Loss: 2.5469, Train Acc: 0.7778, Test Acc: 0.8421
+2022-10-14 16:54:45,528 Epoch: 006, Train View Loss: 3.2735, Sim Loss: 0.4265, Cls Loss: 0.4548, CL Loss: 2.3922, Train Acc: 0.7778, Test Acc: 0.8421
+2022-10-14 16:54:45,614 Epoch: 007, Train View Loss: 3.1359, Sim Loss: 0.4382, Cls Loss: 0.4164, CL Loss: 2.2813, Train Acc: 0.7778, Test Acc: 0.7895
+2022-10-14 16:54:45,702 Epoch: 008, Train View Loss: 3.2508, Sim Loss: 0.4618, Cls Loss: 0.3958, CL Loss: 2.3932, Train Acc: 0.7778, Test Acc: 0.7895
+2022-10-14 16:54:45,778 Epoch: 009, Train View Loss: 3.0129, Sim Loss: 0.3971, Cls Loss: 0.3233, CL Loss: 2.2925, Train Acc: 0.7778, Test Acc: 0.8421
+2022-10-14 16:54:45,857 Epoch: 010, Train View Loss: 3.2083, Sim Loss: 0.3853, Cls Loss: 0.2999, CL Loss: 2.5231, Train Acc: 0.7778, Test Acc: 0.7895
+2022-10-14 16:54:45,932 Epoch: 011, Train View Loss: 3.1153, Sim Loss: 0.3353, Cls Loss: 0.2193, CL Loss: 2.5607, Train Acc: 0.7778, Test Acc: 0.7895
+2022-10-14 16:54:46,010 Epoch: 012, Train View Loss: 3.0504, Sim Loss: 0.4029, Cls Loss: 0.3077, CL Loss: 2.3398, Train Acc: 0.7778, Test Acc: 0.7895
+2022-10-14 16:54:46,084 Epoch: 013, Train View Loss: 3.0679, Sim Loss: 0.3529, Cls Loss: 0.2638, CL Loss: 2.4511, Train Acc: 0.8333, Test Acc: 0.8421
+2022-10-14 16:54:46,157 Epoch: 014, Train View Loss: 2.9167, Sim Loss: 0.3559, Cls Loss: 0.2351, CL Loss: 2.3257, Train Acc: 0.7778, Test Acc: 0.6316
+2022-10-14 16:54:46,234 Epoch: 015, Train View Loss: 2.8811, Sim Loss: 0.3912, Cls Loss: 0.1481, CL Loss: 2.3419, Train Acc: 0.5000, Test Acc: 0.4211
+2022-10-14 16:54:46,310 Epoch: 016, Train View Loss: 3.0594, Sim Loss: 0.3853, Cls Loss: 0.2375, CL Loss: 2.4366, Train Acc: 0.5000, Test Acc: 0.4211
+2022-10-14 16:54:46,393 Epoch: 017, Train View Loss: 2.8989, Sim Loss: 0.4353, Cls Loss: 0.1696, CL Loss: 2.2940, Train Acc: 0.4444, Test Acc: 0.3158
+2022-10-14 16:54:46,471 Epoch: 018, Train View Loss: 3.0910, Sim Loss: 0.3912, Cls Loss: 0.2424, CL Loss: 2.4575, Train Acc: 0.4444, Test Acc: 0.3684
+2022-10-14 16:54:46,552 Epoch: 019, Train View Loss: 3.0289, Sim Loss: 0.3412, Cls Loss: 0.1844, CL Loss: 2.5034, Train Acc: 0.7222, Test Acc: 0.5263
+2022-10-14 16:54:46,625 Epoch: 020, Train View Loss: 3.1083, Sim Loss: 0.3676, Cls Loss: 0.2637, CL Loss: 2.4770, Train Acc: 0.9444, Test Acc: 0.7895
+2022-10-14 16:54:46,711 Epoch: 021, Train View Loss: 2.8866, Sim Loss: 0.3765, Cls Loss: 0.1707, CL Loss: 2.3394, Train Acc: 0.8333, Test Acc: 0.7895
+2022-10-14 16:54:46,797 Epoch: 022, Train View Loss: 3.1453, Sim Loss: 0.3941, Cls Loss: 0.2087, CL Loss: 2.5425, Train Acc: 0.7778, Test Acc: 0.7368
+2022-10-14 16:54:46,880 Epoch: 023, Train View Loss: 3.0925, Sim Loss: 0.3265, Cls Loss: 0.2059, CL Loss: 2.5601, Train Acc: 0.8333, Test Acc: 0.6316
+2022-10-14 16:54:46,951 Epoch: 024, Train View Loss: 2.9061, Sim Loss: 0.3559, Cls Loss: 0.1423, CL Loss: 2.4080, Train Acc: 0.8889, Test Acc: 0.7895
+2022-10-14 16:54:47,026 Epoch: 025, Train View Loss: 2.9004, Sim Loss: 0.3265, Cls Loss: 0.1382, CL Loss: 2.4358, Train Acc: 0.9444, Test Acc: 0.7368
+2022-10-14 16:54:47,100 Epoch: 026, Train View Loss: 2.9775, Sim Loss: 0.3971, Cls Loss: 0.2074, CL Loss: 2.3730, Train Acc: 0.8889, Test Acc: 0.6316
+2022-10-14 16:54:47,173 Epoch: 027, Train View Loss: 3.0157, Sim Loss: 0.3853, Cls Loss: 0.2251, CL Loss: 2.4053, Train Acc: 0.8333, Test Acc: 0.5263
+2022-10-14 16:54:47,257 Epoch: 028, Train View Loss: 2.8535, Sim Loss: 0.3412, Cls Loss: 0.1656, CL Loss: 2.3467, Train Acc: 0.7778, Test Acc: 0.4737
+2022-10-14 16:54:47,337 Epoch: 029, Train View Loss: 3.0291, Sim Loss: 0.3824, Cls Loss: 0.2586, CL Loss: 2.3882, Train Acc: 0.8333, Test Acc: 0.5263
+2022-10-14 16:54:47,407 Epoch: 030, Train View Loss: 3.4049, Sim Loss: 0.3618, Cls Loss: 0.3185, CL Loss: 2.7247, Train Acc: 0.8889, Test Acc: 0.6316
+2022-10-14 16:54:47,408 **********
+2022-10-14 16:54:47,408 Fold: 7
+2022-10-14 16:54:47,408 188
+2022-10-14 16:54:47,409 Train size: 169
+2022-10-14 16:54:47,409 Semi size: 18
+2022-10-14 16:54:47,409 Test size: 19
+2022-10-14 16:54:47,419 **************************************************
+2022-10-14 16:54:47,419 Training View Generator and Classifier...
+2022-10-14 16:54:47,492 Epoch: 001, Train View Loss: 4.2290, Sim Loss: 0.4485, Cls Loss: 0.9136, CL Loss: 2.8670, Train Acc: 0.5000, Test Acc: 0.2105
+2022-10-14 16:54:47,561 Epoch: 002, Train View Loss: 3.8177, Sim Loss: 0.5382, Cls Loss: 0.6044, CL Loss: 2.6750, Train Acc: 0.7778, Test Acc: 0.6316
+2022-10-14 16:54:47,634 Epoch: 003, Train View Loss: 3.1616, Sim Loss: 0.5050, Cls Loss: 0.2378, CL Loss: 2.4188, Train Acc: 0.8333, Test Acc: 0.9474
+2022-10-14 16:54:47,713 Epoch: 004, Train View Loss: 3.4659, Sim Loss: 0.5382, Cls Loss: 0.4421, CL Loss: 2.4857, Train Acc: 0.7222, Test Acc: 0.8947
+2022-10-14 16:54:47,782 Epoch: 005, Train View Loss: 3.2851, Sim Loss: 0.4751, Cls Loss: 0.2476, CL Loss: 2.5624, Train Acc: 0.8889, Test Acc: 0.9474
+2022-10-14 16:54:47,851 Epoch: 006, Train View Loss: 2.9396, Sim Loss: 0.4950, Cls Loss: 0.1563, CL Loss: 2.2883, Train Acc: 0.8889, Test Acc: 0.7368
+2022-10-14 16:54:47,929 Epoch: 007, Train View Loss: 3.0900, Sim Loss: 0.5216, Cls Loss: 0.2300, CL Loss: 2.3383, Train Acc: 0.8889, Test Acc: 0.7368
+2022-10-14 16:54:48,003 Epoch: 008, Train View Loss: 3.0177, Sim Loss: 0.4452, Cls Loss: 0.2250, CL Loss: 2.3476, Train Acc: 0.8889, Test Acc: 0.8421
+2022-10-14 16:54:48,071 Epoch: 009, Train View Loss: 2.8913, Sim Loss: 0.4551, Cls Loss: 0.1746, CL Loss: 2.2615, Train Acc: 0.8889, Test Acc: 0.8421
+2022-10-14 16:54:48,141 Epoch: 010, Train View Loss: 2.9504, Sim Loss: 0.4684, Cls Loss: 0.2201, CL Loss: 2.2619, Train Acc: 0.8333, Test Acc: 0.9474
+2022-10-14 16:54:48,212 Epoch: 011, Train View Loss: 2.9586, Sim Loss: 0.4950, Cls Loss: 0.1832, CL Loss: 2.2803, Train Acc: 0.8333, Test Acc: 0.9474
+2022-10-14 16:54:48,284 Epoch: 012, Train View Loss: 2.9965, Sim Loss: 0.4950, Cls Loss: 0.2318, CL Loss: 2.2697, Train Acc: 0.8333, Test Acc: 0.9474
+2022-10-14 16:54:48,353 Epoch: 013, Train View Loss: 2.8886, Sim Loss: 0.4983, Cls Loss: 0.1319, CL Loss: 2.2584, Train Acc: 0.8333, Test Acc: 0.9474
+2022-10-14 16:54:48,431 Epoch: 014, Train View Loss: 2.8391, Sim Loss: 0.4585, Cls Loss: 0.1212, CL Loss: 2.2595, Train Acc: 1.0000, Test Acc: 0.8947
+2022-10-14 16:54:48,507 Epoch: 015, Train View Loss: 2.8719, Sim Loss: 0.4352, Cls Loss: 0.1383, CL Loss: 2.2983, Train Acc: 1.0000, Test Acc: 0.8947
+2022-10-14 16:54:48,586 Epoch: 016, Train View Loss: 2.9310, Sim Loss: 0.4950, Cls Loss: 0.1329, CL Loss: 2.3031, Train Acc: 1.0000, Test Acc: 0.8947
+2022-10-14 16:54:48,663 Epoch: 017, Train View Loss: 2.8845, Sim Loss: 0.4850, Cls Loss: 0.1223, CL Loss: 2.2771, Train Acc: 1.0000, Test Acc: 0.8947
+2022-10-14 16:54:48,726 Epoch: 018, Train View Loss: 3.0131, Sim Loss: 0.4950, Cls Loss: 0.1576, CL Loss: 2.3604, Train Acc: 1.0000, Test Acc: 0.8947
+2022-10-14 16:54:48,808 Epoch: 019, Train View Loss: 2.8002, Sim Loss: 0.4784, Cls Loss: 0.0720, CL Loss: 2.2498, Train Acc: 1.0000, Test Acc: 0.8947
+2022-10-14 16:54:48,874 Epoch: 020, Train View Loss: 2.8579, Sim Loss: 0.4585, Cls Loss: 0.1069, CL Loss: 2.2925, Train Acc: 0.8889, Test Acc: 0.7895
+2022-10-14 16:54:48,947 Epoch: 021, Train View Loss: 2.8783, Sim Loss: 0.4086, Cls Loss: 0.0980, CL Loss: 2.3717, Train Acc: 0.7778, Test Acc: 0.6316
+2022-10-14 16:54:49,026 Epoch: 022, Train View Loss: 2.8661, Sim Loss: 0.4252, Cls Loss: 0.0988, CL Loss: 2.3420, Train Acc: 0.7222, Test Acc: 0.5789
+2022-10-14 16:54:49,098 Epoch: 023, Train View Loss: 2.8963, Sim Loss: 0.4153, Cls Loss: 0.0830, CL Loss: 2.3981, Train Acc: 0.6667, Test Acc: 0.4737
+2022-10-14 16:54:49,181 Epoch: 024, Train View Loss: 3.0442, Sim Loss: 0.4585, Cls Loss: 0.1754, CL Loss: 2.4104, Train Acc: 0.6111, Test Acc: 0.4211
+2022-10-14 16:54:49,257 Epoch: 025, Train View Loss: 2.8235, Sim Loss: 0.4020, Cls Loss: 0.0766, CL Loss: 2.3449, Train Acc: 0.6111, Test Acc: 0.4211
+2022-10-14 16:54:49,326 Epoch: 026, Train View Loss: 3.0122, Sim Loss: 0.3721, Cls Loss: 0.1530, CL Loss: 2.4871, Train Acc: 0.6111, Test Acc: 0.4211
+2022-10-14 16:54:49,406 Epoch: 027, Train View Loss: 3.1086, Sim Loss: 0.3854, Cls Loss: 0.2142, CL Loss: 2.5090, Train Acc: 0.6667, Test Acc: 0.5263
+2022-10-14 16:54:49,474 Epoch: 028, Train View Loss: 2.9134, Sim Loss: 0.3787, Cls Loss: 0.1370, CL Loss: 2.3976, Train Acc: 0.7778, Test Acc: 0.6842
+2022-10-14 16:54:49,543 Epoch: 029, Train View Loss: 2.7416, Sim Loss: 0.3555, Cls Loss: 0.1094, CL Loss: 2.2767, Train Acc: 0.8333, Test Acc: 0.6316
+2022-10-14 16:54:49,622 Epoch: 030, Train View Loss: 2.7794, Sim Loss: 0.3887, Cls Loss: 0.1353, CL Loss: 2.2553, Train Acc: 0.8889, Test Acc: 0.7368
+2022-10-14 16:54:49,623 **********
+2022-10-14 16:54:49,623 Fold: 8
+2022-10-14 16:54:49,623 188
+2022-10-14 16:54:49,623 Train size: 170
+2022-10-14 16:54:49,624 Semi size: 18
+2022-10-14 16:54:49,624 Test size: 18
+2022-10-14 16:54:49,640 **************************************************
+2022-10-14 16:54:49,640 Training View Generator and Classifier...
+2022-10-14 16:54:49,708 Epoch: 001, Train View Loss: 4.0925, Sim Loss: 0.4513, Cls Loss: 0.7904, CL Loss: 2.8508, Train Acc: 0.1111, Test Acc: 0.3889
+2022-10-14 16:54:49,798 Epoch: 002, Train View Loss: 4.1140, Sim Loss: 0.4485, Cls Loss: 0.8776, CL Loss: 2.7880, Train Acc: 0.9444, Test Acc: 0.8889
+2022-10-14 16:54:49,870 Epoch: 003, Train View Loss: 3.8700, Sim Loss: 0.4318, Cls Loss: 0.8097, CL Loss: 2.6285, Train Acc: 0.5556, Test Acc: 0.7222
+2022-10-14 16:54:49,937 Epoch: 004, Train View Loss: 3.6103, Sim Loss: 0.4373, Cls Loss: 0.6125, CL Loss: 2.5604, Train Acc: 0.1111, Test Acc: 0.3889
+2022-10-14 16:54:50,022 Epoch: 005, Train View Loss: 3.8088, Sim Loss: 0.5265, Cls Loss: 0.5853, CL Loss: 2.6970, Train Acc: 0.1111, Test Acc: 0.3889
+2022-10-14 16:54:50,092 Epoch: 006, Train View Loss: 3.6681, Sim Loss: 0.5710, Cls Loss: 0.5055, CL Loss: 2.5916, Train Acc: 0.6667, Test Acc: 0.7222
+2022-10-14 16:54:50,160 Epoch: 007, Train View Loss: 3.3828, Sim Loss: 0.4986, Cls Loss: 0.3683, CL Loss: 2.5159, Train Acc: 0.8333, Test Acc: 0.9444
+2022-10-14 16:54:50,249 Epoch: 008, Train View Loss: 3.4216, Sim Loss: 0.4568, Cls Loss: 0.3800, CL Loss: 2.5847, Train Acc: 0.9444, Test Acc: 0.9444
+2022-10-14 16:54:50,327 Epoch: 009, Train View Loss: 3.4516, Sim Loss: 0.4401, Cls Loss: 0.4228, CL Loss: 2.5887, Train Acc: 0.9444, Test Acc: 0.8889
+2022-10-14 16:54:50,408 Epoch: 010, Train View Loss: 3.2906, Sim Loss: 0.4485, Cls Loss: 0.3658, CL Loss: 2.4763, Train Acc: 0.9444, Test Acc: 0.8889
+2022-10-14 16:54:50,480 Epoch: 011, Train View Loss: 3.1720, Sim Loss: 0.4067, Cls Loss: 0.3200, CL Loss: 2.4454, Train Acc: 0.9444, Test Acc: 0.8889
+2022-10-14 16:54:50,553 Epoch: 012, Train View Loss: 3.2355, Sim Loss: 0.4150, Cls Loss: 0.3285, CL Loss: 2.4919, Train Acc: 0.9444, Test Acc: 0.8889
+2022-10-14 16:54:50,622 Epoch: 013, Train View Loss: 3.1957, Sim Loss: 0.3872, Cls Loss: 0.2748, CL Loss: 2.5338, Train Acc: 0.9444, Test Acc: 0.8889
+2022-10-14 16:54:50,694 Epoch: 014, Train View Loss: 3.1497, Sim Loss: 0.4095, Cls Loss: 0.2842, CL Loss: 2.4561, Train Acc: 0.9444, Test Acc: 0.8889
+2022-10-14 16:54:50,771 Epoch: 015, Train View Loss: 3.0908, Sim Loss: 0.3872, Cls Loss: 0.2212, CL Loss: 2.4824, Train Acc: 1.0000, Test Acc: 0.7222
+2022-10-14 16:54:50,843 Epoch: 016, Train View Loss: 3.1237, Sim Loss: 0.3928, Cls Loss: 0.2304, CL Loss: 2.5006, Train Acc: 1.0000, Test Acc: 0.6667
+2022-10-14 16:54:50,914 Epoch: 017, Train View Loss: 3.1021, Sim Loss: 0.4401, Cls Loss: 0.1786, CL Loss: 2.4834, Train Acc: 1.0000, Test Acc: 0.6667
+2022-10-14 16:54:50,988 Epoch: 018, Train View Loss: 3.1030, Sim Loss: 0.4290, Cls Loss: 0.2003, CL Loss: 2.4737, Train Acc: 1.0000, Test Acc: 0.7778
+2022-10-14 16:54:51,059 Epoch: 019, Train View Loss: 3.0215, Sim Loss: 0.3733, Cls Loss: 0.1700, CL Loss: 2.4783, Train Acc: 0.9444, Test Acc: 0.7778
+2022-10-14 16:54:51,134 Epoch: 020, Train View Loss: 3.0488, Sim Loss: 0.4039, Cls Loss: 0.1708, CL Loss: 2.4740, Train Acc: 1.0000, Test Acc: 0.8333
+2022-10-14 16:54:51,210 Epoch: 021, Train View Loss: 3.0436, Sim Loss: 0.3705, Cls Loss: 0.1871, CL Loss: 2.4861, Train Acc: 1.0000, Test Acc: 0.8333
+2022-10-14 16:54:51,279 Epoch: 022, Train View Loss: 3.0398, Sim Loss: 0.3677, Cls Loss: 0.1245, CL Loss: 2.5476, Train Acc: 0.9444, Test Acc: 0.8889
+2022-10-14 16:54:51,355 Epoch: 023, Train View Loss: 2.9717, Sim Loss: 0.3788, Cls Loss: 0.1271, CL Loss: 2.4658, Train Acc: 0.9444, Test Acc: 0.8889
+2022-10-14 16:54:51,434 Epoch: 024, Train View Loss: 3.0226, Sim Loss: 0.3955, Cls Loss: 0.1700, CL Loss: 2.4570, Train Acc: 0.9444, Test Acc: 0.8889
+2022-10-14 16:54:51,511 Epoch: 025, Train View Loss: 3.0140, Sim Loss: 0.3788, Cls Loss: 0.0940, CL Loss: 2.5412, Train Acc: 0.9444, Test Acc: 0.8889
+2022-10-14 16:54:51,591 Epoch: 026, Train View Loss: 2.9456, Sim Loss: 0.3872, Cls Loss: 0.0612, CL Loss: 2.4972, Train Acc: 0.9444, Test Acc: 0.8889
+2022-10-14 16:54:51,662 Epoch: 027, Train View Loss: 2.9509, Sim Loss: 0.3900, Cls Loss: 0.0823, CL Loss: 2.4786, Train Acc: 0.9444, Test Acc: 0.8889
+2022-10-14 16:54:51,740 Epoch: 028, Train View Loss: 2.9692, Sim Loss: 0.3538, Cls Loss: 0.1344, CL Loss: 2.4810, Train Acc: 0.9444, Test Acc: 0.8889
+2022-10-14 16:54:51,818 Epoch: 029, Train View Loss: 3.1199, Sim Loss: 0.3705, Cls Loss: 0.2650, CL Loss: 2.4844, Train Acc: 0.9444, Test Acc: 0.8889
+2022-10-14 16:54:51,887 Epoch: 030, Train View Loss: 3.0701, Sim Loss: 0.3565, Cls Loss: 0.2545, CL Loss: 2.4591, Train Acc: 0.9444, Test Acc: 0.8889
+2022-10-14 16:54:51,888 **********
+2022-10-14 16:54:51,888 Fold: 9
+2022-10-14 16:54:51,888 188
+2022-10-14 16:54:51,888 Train size: 170
+2022-10-14 16:54:51,888 Semi size: 18
+2022-10-14 16:54:51,889 Test size: 18
+2022-10-14 16:54:51,903 **************************************************
+2022-10-14 16:54:51,903 Training View Generator and Classifier...
+2022-10-14 16:54:51,974 Epoch: 001, Train View Loss: 4.2871, Sim Loss: 0.5696, Cls Loss: 0.8593, CL Loss: 2.8582, Train Acc: 0.6111, Test Acc: 0.6667
+2022-10-14 16:54:52,044 Epoch: 002, Train View Loss: 4.0406, Sim Loss: 0.4272, Cls Loss: 0.6982, CL Loss: 2.9152, Train Acc: 0.3889, Test Acc: 0.3333
+2022-10-14 16:54:52,115 Epoch: 003, Train View Loss: 3.8263, Sim Loss: 0.4747, Cls Loss: 0.5445, CL Loss: 2.8071, Train Acc: 0.6667, Test Acc: 0.6667
+2022-10-14 16:54:52,189 Epoch: 004, Train View Loss: 3.6047, Sim Loss: 0.4968, Cls Loss: 0.4786, CL Loss: 2.6293, Train Acc: 0.7222, Test Acc: 0.7222
+2022-10-14 16:54:52,258 Epoch: 005, Train View Loss: 3.1977, Sim Loss: 0.4652, Cls Loss: 0.3280, CL Loss: 2.4045, Train Acc: 0.8889, Test Acc: 0.7222
+2022-10-14 16:54:52,333 Epoch: 006, Train View Loss: 3.2261, Sim Loss: 0.5000, Cls Loss: 0.4076, CL Loss: 2.3185, Train Acc: 0.8333, Test Acc: 0.8333
+2022-10-14 16:54:52,394 Epoch: 007, Train View Loss: 3.3795, Sim Loss: 0.5000, Cls Loss: 0.3509, CL Loss: 2.5286, Train Acc: 0.8333, Test Acc: 0.8333
+2022-10-14 16:54:52,480 Epoch: 008, Train View Loss: 3.2922, Sim Loss: 0.5095, Cls Loss: 0.3448, CL Loss: 2.4378, Train Acc: 0.8333, Test Acc: 0.7222
+2022-10-14 16:54:52,574 Epoch: 009, Train View Loss: 3.1162, Sim Loss: 0.4589, Cls Loss: 0.3546, CL Loss: 2.3027, Train Acc: 0.8889, Test Acc: 0.7222
+2022-10-14 16:54:52,684 Epoch: 010, Train View Loss: 3.0608, Sim Loss: 0.4873, Cls Loss: 0.2751, CL Loss: 2.2984, Train Acc: 0.8333, Test Acc: 0.8333
+2022-10-14 16:54:52,824 Epoch: 011, Train View Loss: 3.2066, Sim Loss: 0.5127, Cls Loss: 0.3179, CL Loss: 2.3761, Train Acc: 0.8333, Test Acc: 0.7222
+2022-10-14 16:54:52,925 Epoch: 012, Train View Loss: 3.1069, Sim Loss: 0.4968, Cls Loss: 0.3036, CL Loss: 2.3065, Train Acc: 0.7778, Test Acc: 0.7778
+2022-10-14 16:54:53,010 Epoch: 013, Train View Loss: 3.1355, Sim Loss: 0.4937, Cls Loss: 0.2471, CL Loss: 2.3948, Train Acc: 0.6667, Test Acc: 0.7778
+2022-10-14 16:54:53,086 Epoch: 014, Train View Loss: 3.3046, Sim Loss: 0.4652, Cls Loss: 0.3731, CL Loss: 2.4663, Train Acc: 0.6667, Test Acc: 0.7778
+2022-10-14 16:54:53,174 Epoch: 015, Train View Loss: 3.3489, Sim Loss: 0.4715, Cls Loss: 0.4112, CL Loss: 2.4662, Train Acc: 0.7222, Test Acc: 0.7778
+2022-10-14 16:54:53,256 Epoch: 016, Train View Loss: 3.1861, Sim Loss: 0.4620, Cls Loss: 0.3172, CL Loss: 2.4069, Train Acc: 0.8333, Test Acc: 0.7222
+2022-10-14 16:54:53,342 Epoch: 017, Train View Loss: 3.2113, Sim Loss: 0.4652, Cls Loss: 0.3655, CL Loss: 2.3806, Train Acc: 0.8333, Test Acc: 0.7778
+2022-10-14 16:54:53,420 Epoch: 018, Train View Loss: 3.2252, Sim Loss: 0.4525, Cls Loss: 0.3749, CL Loss: 2.3978, Train Acc: 0.8889, Test Acc: 0.7778
+2022-10-14 16:54:53,498 Epoch: 019, Train View Loss: 3.1393, Sim Loss: 0.4620, Cls Loss: 0.3349, CL Loss: 2.3424, Train Acc: 0.8889, Test Acc: 0.7222
+2022-10-14 16:54:53,589 Epoch: 020, Train View Loss: 3.2252, Sim Loss: 0.5127, Cls Loss: 0.3714, CL Loss: 2.3411, Train Acc: 0.8333, Test Acc: 0.7222
+2022-10-14 16:54:53,656 Epoch: 021, Train View Loss: 3.1215, Sim Loss: 0.4684, Cls Loss: 0.3287, CL Loss: 2.3244, Train Acc: 0.8333, Test Acc: 0.7222
+2022-10-14 16:54:53,723 Epoch: 022, Train View Loss: 3.0329, Sim Loss: 0.4494, Cls Loss: 0.2754, CL Loss: 2.3081, Train Acc: 0.8889, Test Acc: 0.7778
+2022-10-14 16:54:53,791 Epoch: 023, Train View Loss: 3.0948, Sim Loss: 0.4810, Cls Loss: 0.2886, CL Loss: 2.3252, Train Acc: 0.8889, Test Acc: 0.7778
+2022-10-14 16:54:53,860 Epoch: 024, Train View Loss: 3.1536, Sim Loss: 0.4304, Cls Loss: 0.3346, CL Loss: 2.3886, Train Acc: 0.8889, Test Acc: 0.7222
+2022-10-14 16:54:53,938 Epoch: 025, Train View Loss: 3.2066, Sim Loss: 0.4399, Cls Loss: 0.3029, CL Loss: 2.4638, Train Acc: 0.8889, Test Acc: 0.6667
+2022-10-14 16:54:54,006 Epoch: 026, Train View Loss: 3.0162, Sim Loss: 0.4304, Cls Loss: 0.2690, CL Loss: 2.3168, Train Acc: 0.8333, Test Acc: 0.6667
+2022-10-14 16:54:54,070 Epoch: 027, Train View Loss: 3.0282, Sim Loss: 0.4114, Cls Loss: 0.2493, CL Loss: 2.3676, Train Acc: 0.8889, Test Acc: 0.6667
+2022-10-14 16:54:54,137 Epoch: 028, Train View Loss: 3.0056, Sim Loss: 0.3924, Cls Loss: 0.2813, CL Loss: 2.3320, Train Acc: 0.7778, Test Acc: 0.7222
+2022-10-14 16:54:54,205 Epoch: 029, Train View Loss: 2.9550, Sim Loss: 0.3576, Cls Loss: 0.2796, CL Loss: 2.3177, Train Acc: 0.7778, Test Acc: 0.6667
+2022-10-14 16:54:54,281 Epoch: 030, Train View Loss: 3.0457, Sim Loss: 0.3924, Cls Loss: 0.3224, CL Loss: 2.3308, Train Acc: 0.8333, Test Acc: 0.6667
+2022-10-14 16:54:54,293 Test Acc: tensor([0.8421, 0.8421, 0.9474, 0.9474, 0.8421, 0.8421, 0.8421, 0.9474, 0.9444,
+        0.8333])
+2022-10-14 16:54:54,294 Best Epoch: tensor([24,  7,  6, 21,  2,  2,  2,  2,  6,  5])
+2022-10-14 16:54:54,294 Train Acc: 0.8778, Test Acc: 0.883 ¡À 0.055, Duration: 2.624
+2022-10-14 16:54:54,295 mid-result: data=MUTAG, model=ResGCN, feat=deg+odeg100, eval=test_max, train_acc=87.78, test_acc=88.30 ¡À 5.48, sec=2.62
+2022-10-14 16:54:54,295 -----
+fin-result: data=MUTAG, model=ResGCN, feat=deg+odeg100, eval=test_max, train_acc=87.78, test_acc=88.30 ¡À 5.48, sec=2.62
